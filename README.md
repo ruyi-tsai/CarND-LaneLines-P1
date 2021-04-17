@@ -53,7 +53,7 @@ def hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap):
 ```
 Result
 ---
-[![Udacity - solidWhiteCurve](https://github.com/ruyi-tsai/CarND-LaneLines-P1/blob/master/test_images_output/solidWhiteCurve.jpg)
+[![Udacity - solidYellowLeft](https://github.com/ruyi-tsai/CarND-LaneLines-P1/blob/master/test_images_output/solidYellowLeft.jpg)
 Identify potential shortcomings with your current pipeline
 ---
 In this case,I cann't find curve line perfectly.In real case we also need to fine any case that cause to be very dangerous.
