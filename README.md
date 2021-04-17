@@ -52,4 +52,11 @@ def hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap):
     return cv2.HoughLinesP(img, rho, theta, threshold, np.array([]), minLineLength=min_line_len, maxLineGap=max_line_gap)
 ```
 
+Identify potential shortcomings with your current pipeline
+---
+In this case,I cann't find curve line perfectly.In real case we also need to fine any case that cause to be very dangerous.
 
+Suggest possible improvements to your pipeline
+---
+
+In the future,I must use powerful method to find correct line, for example curve fitting or select colorful.
